@@ -8,7 +8,7 @@ Feature: Spotify API challenge
         Then the HTTP response code is 200
 
     Scenario: As a API consumer, I receive proper response headers
-        Then the HTTP response code is 200
+        Then the HTTP response headers are as per contract
 
     Scenario: As a API consumer, I obtain the response in valid JSON format
         Then the response is in valid JSON format
